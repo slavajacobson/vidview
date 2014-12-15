@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>VidView.js</title>
+  <meta name="description" content="jQuery Plugin for video preview animation">
+  <meta name="author" content="Slava Jacobson">
+
+
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+ 
+
+</head>
+
+<body>
+
+
+	<div class="vidview"></div>
+
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  	<script src="../js/vidview.js"></script>
+  
+  	<script>	
+		$(".vidview").vidView({
+			image_url: 'images/sample.jpg', 
+			video: 'https://www.youtube.com/watch?v=SaaWnun6Dz4',
+			width: 320, 
+			height: 180, 
+			autoPlay: 'hover'
+		});
+
+		//$(".vidview").data('vidView').play();
+  	</script>
+</body>
+</html>
