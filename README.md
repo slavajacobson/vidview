@@ -33,7 +33,6 @@ Include script *after* the jQuery library:
 ```javascript
 $(".vidview").vidView({
   image_url: 'images/montage.jpg', 
-  video: 'https://www.youtube.com/watch?v=SaaWnun6Dz4',
   width: 320, 
   height: 180, 
   autoPlay: 'hover'
