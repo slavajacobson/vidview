@@ -1,5 +1,7 @@
 # VidView.js
 
+[![Join the chat at https://gitter.im/slavajacobson/vidview](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/slavajacobson/vidview?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 jQuery plugin to help enable video preview.
 
 ## Prerequisites:
